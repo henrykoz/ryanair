@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm run:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(pkill:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Read(//Users/henryk/Desktop/**)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "mcp__shadcn__get_project_registries",
+      "mcp__shadcn__view_items_in_registries",
+      "mcp__shadcn__get_add_command_for_items",
+      "Bash(npx shadcn@latest add @shadcn/calendar --yes --overwrite)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/www/registry/default/ui/calendar.tsx)",
+      "mcp__shadcn__search_items_in_registries",
+      "mcp__shadcn__get_item_examples_from_registries",
+      "Bash(npx shadcn@latest add sonner --yes --overwrite)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}

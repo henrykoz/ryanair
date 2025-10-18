@@ -1,0 +1,8 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@stylistic/jsx-quotes": "off",
+    "jsdoc/require-jsdoc": "off",
+    "jsdoc/require-param": "off"
+  }
+}
